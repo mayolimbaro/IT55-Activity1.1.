@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Resume - Mayo Ceasar G. Limbaro</title>
+  <meta name="description" content="Simple resume page with multimedia and form">
+</head>
+<body>
+
+  <!-- Main Heading / Name -->
+  <h1>Mayo Ceasar G. Limbaro</h1>
+  <p>Email: unorthodox.oyam@gmail.com<br>
+     Phone: 09267934124</p>
+    <!-- Skills Section -->
+    <h2>Skills</h2>
+  <ul>
+    <li>Programming</li>
+    <li>IT Analysis</li>
+  </ul>
+
+  <!-- Experience Section -->
+  <h2>Experience</h2>
+  <p>Gamer Developer - Mobile Legends Bang Bang</p>
+    <!-- Education Section -->
+    <h2>Education</h2>
+  <p>Central Mindanao University - BS Information Technology</p>
+    <!-- External Link to Mobile Legends Website -->
+    <p>Visit <a href="https://www.mobilelegends.com" target="_blank">Mobile Legends Official Site</a></p>
+   
+    <h2>My idol</h2>
+  <img src="diwata2.webp" alt="Profile Picture">
+ 
+  <!-- Audio -->
+  <h2>Audio</h2>
+  <h3>linger By: The cranberries</h3>
+  <audio controls>
+    <source src="linger.mp3" type="audio/mpeg">
+    Your browser does not support audio.
+  </audio>
+   
+   <!--Video-->
+   <h2>Video</h2>
+   <h3>Diwata drink poison</h3>
+  <video width="20%" height="20%" controls>
+    <source src="diwata.mp4" type="video/mp4">
+    Your browser does not support video.
+  </video>
+
+
+  <h3>Skills Table</h3>
+  <table border="1">
+    <tr>
+      <th>Skill</th>
+      <th>Level</th>
+    </tr>
+    <tr>
+      <td>HTML</td>
+      <td>Advanced</td>
+    </tr>
+    <tr>
+      <td>Python</td>
+      <td>Intermediate</td>
+    </tr>
+  </table>
+
+   <div style="background-color: #f0f0f0; padding: 10px;">
+    This is a <span style="color: red;">styled section</span> using &lt;div&gt; and &lt;span&gt;.
+  </div>
+
+    <!-- Contact Form -->
+    <h3>Contact Form</h3>
+  <form>
+    Name: <input type="text" name="name"><br><br>
+    Email: <input type="email" name="email"><br><br>
+    Message:<br>
+    <textarea rows="4" cols="30"></textarea><br><br>
+    <input type="submit" value="Send">
+  </form>
+
+  </body>
